@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+​
+    <title>Dota Hero Page</title>
+​
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,600,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+​
+  <body class="hero-page">
+    <header class="site-header">
+      <div class="wrap">
+        <div class="single-column">
+          <a href="/">
+            <img src="images/logo.png" alt="Dota 2 Logo" />
+          </a>
+        </div>
+      </div>
+    </header>
+​
+    <main>
+      <div class="wrap">
+        <div class="single-column flow-2">
+          <div class="site-title clear">
+            <h1 data-hero-name></h1>
+            <img class="hero__img" src="images/logo.png" data-hero-image />
+            <p data-hero-description></p>
+          </div>
+​
+          <section hidden>
+            <h2>Abilities</h2>
+            <ul class="abilities flow" data-hero-abilities>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </main>
+​
+    <script src="https://cdn.jsdelivr.net/npm/zl-fetch"></script>
+    <script type="module" src="/js/hero.js"></script>
+  </body>
+</html>

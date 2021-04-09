@@ -1,0 +1,81 @@
+html {
+  font-size: 150%;
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  padding: 1rem;
+}
+
+h2 {
+  font-size: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+/*******************
+ * Pick and drop zones
+ *******************/
+[data-pickzone],
+[data-dropzone] {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(0, 3rem));
+  grid-gap: 0.5rem;
+  padding: 0.5rem;
+  border: 3px dotted black;
+  min-height: calc(4rem + 6px);
+}
+
+[data-dropzone] {
+  border: 3px solid black;
+}
+
+/*******************
+ * Boxes
+ *******************/
+.box {
+  width: 3rem;
+  height: 3rem;
+  filter: saturate(90%) brightness(90%);
+}
+
+[data-color="red"] {
+  background-color: red;
+}
+
+[data-color="orange"] {
+  background-color: orange;
+}
+
+[data-color="yellow"] {
+  background-color: yellow;
+}
+
+[data-color="green"] {
+  background-color: green;
+}
+
+[data-color="blue"] {
+  background-color: blue;
+}
+
+[data-color="indigo"] {
+  background-color: indigo;
+}
+
+[data-color="violet"] {
+  background-color: purple;
+}
+
+/*******************
+ * Dragging
+ *******************/
+[data-draggable] {
+  cursor: move;
+  touch-action: none;
+}
+
+.preview {
+  background-color: #eee;
+  border: 4px dotted #aaa;
+}

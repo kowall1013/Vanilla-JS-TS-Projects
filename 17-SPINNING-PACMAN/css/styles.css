@@ -1,0 +1,89 @@
+:root {
+  --yellow: #dfbe1a;
+  --dark-yellow: #766411;
+  --dark-blue: #001b33;
+}
+
+html {
+  font-family: Helvetica;
+  background-color: var(--dark-blue);
+  height: 100%;
+}
+
+@media (orientation: landscape) {
+  body {
+    --header-size: 10vw;
+    --pacman-size: 8vw;
+    display: grid;
+    grid-template-columns: 1fr max-content;
+    grid-gap: var(--pacman-size);
+    align-items: center;
+    height: inherit;
+    padding: 0 6rem;
+  }
+}
+
+@media (orientation: portrait) {
+  body {
+    --header-size: 15vw;
+    --pacman-size: 18vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header {
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+  }
+}
+
+h1 {
+  font-size: var(--header-size);
+  font-family: "Caesar Dressing", cursive;
+  line-height: 1;
+  text-align: left;
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+  color: #dfbe1a;
+}
+
+h1 [data-pacman] {
+  margin-left: 1em;
+}
+
+h1 > * {
+  border-bottom: 0.1em solid var(--yellow);
+}
+
+h1,
+h1 > * {
+  filter: drop-shadow(-0.025em 0.025em 0 var(--dark-yellow));
+}
+
+/* Pacman grid */
+main {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, max-content);
+  grid-gap: calc(var(--pacman-size) / 2);
+}
+
+main > *:nth-child(5) {
+  grid-column: 3;
+}
+
+.pacman {
+  --xShadow: -0.5em;
+  display: block;
+  fill: var(--yellow);
+  width: var(--pacman-size);
+  height: var(--pacman-size);
+  filter: drop-shadow(-0.375em 0 0 var(--dark-yellow));
+}
+
+header,
+main {
+  touch-action: none;
+}
