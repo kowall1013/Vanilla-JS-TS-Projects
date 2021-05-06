@@ -34,12 +34,33 @@
 
 ---
 
-[05-ACCORDION](https://kwl-accordions.netlify.app/) 
+[05-CAROUSEL](https://kwl-carousel.netlify.app/) 
 ---
-### Important stuff in project
 
-- manipulate height
-- keyboard events
+---
+
+[06-CALCULATOR](https://kwl-calculator.netlify.app/) 
+---
+
+---
+
+[07-POPOVERS](https://kwl-popovers.netlify.app/) 
+---
+
+---
+
+[08-TODOLIST](https://kwl-todo-list.netlify.app/) 
+---
+
+---
+
+[09-TYPEHEAD](https://kwl-typehead.netlify.app/) 
+---
+
+---
+
+[10-DATEPICKER](https://kwl-datepicker.netlify.app/) 
+---
 
 
 
