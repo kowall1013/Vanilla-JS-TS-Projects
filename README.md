@@ -62,6 +62,41 @@
 [10-DATEPICKER](https://kwl-datepicker.netlify.app/) 
 ---
 
+---
+
+[11-COUNTDOWN-TIMER](https://kwl-countdown-timer.netlify.app/) 
+---
+
+---
+
+[12-GOOGLE-MAP](https://kwl-google-map.netlify.app/) 
+---
+
+---
+
+[13-DOTA-HEROES](https://kwl-dota-heroes.netlify.app/) 
+---
+
+---
+
+[15-SLIDE-REVEAL](https://kwl-slide-reveal.netlify.app/) 
+---
+
+---
+
+[16-INFINITE-SCROLL](https://kwl-infinite-scroll.netlify.app/) 
+---
+
+---
+
+[17-PACMAN](https://kwl-pacman.netlify.app/) 
+---
+
+---
+
+[18-DRAG-AND-DROP](https://kwl-drag-and-drop.netlify.app/) 
+---
+
 
 
 
